@@ -1,0 +1,22 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+openclaw.json
+*.secret.json
+secrets/
+private/
+
+# Runtime state
+memory/
+logs/
+SESSION-STATE.md
+TASKS.md
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Local overrides
+*.local.*

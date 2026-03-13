@@ -1,0 +1,20 @@
+{
+  "bindings": [
+    {
+      "channel": "feishu",
+      "agent": "feishu"
+    }
+  ],
+  "agents": {
+    "feishu": {
+      "workspace": "${OPENCLAW_HOME}/workspace-feishu"
+    },
+    "coder": {
+      "workspace": "${OPENCLAW_HOME}/workspace-coder"
+    }
+  },
+  "env": {
+    "FEISHU_APP_ID": "${FEISHU_APP_ID}",
+    "FEISHU_APP_SECRET": "${FEISHU_APP_SECRET}"
+  }
+}
