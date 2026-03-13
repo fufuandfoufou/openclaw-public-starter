@@ -2,6 +2,10 @@
 
 A reusable public starter for OpenClaw setups.
 
+![Architecture Overview](assets/architecture-overview.svg)
+
+A clean starter repo for people who want to open-source their OpenClaw structure without leaking personal context, secrets, or runtime state.
+
 This repository contains only the **public layer**:
 - reusable architecture
 - workspace templates
@@ -15,6 +19,15 @@ It does **not** include:
 - real chat bindings
 - personal device info
 - runtime state
+
+## Who This Is For
+- People who want a reusable OpenClaw architecture repo
+- Teams who need a public-safe starter before layering private config
+- Builders who want a clean split between templates and secrets
+
+## Who This Is Not For
+- Anyone trying to publish a live production OpenClaw directory as-is
+- Anyone who wants to store runtime memory, logs, or secrets in public Git
 
 ## Quick Start
 

@@ -2,6 +2,10 @@
 
 这是一个可复用的 OpenClaw 公共起步仓库。
 
+![Architecture Overview](assets/architecture-overview.svg)
+
+它适合那些希望把 OpenClaw 的结构开源出来、方便别人复用，但又不想泄露个人上下文、密钥和运行态数据的人。
+
 这个仓库只包含**公开层**：
 - 可复用架构
 - workspace 模板
@@ -15,6 +19,15 @@
 - 真实聊天绑定
 - 个人设备信息
 - 本地运行态数据
+
+## 适合谁
+- 想把 OpenClaw 架构整理成可复用公开仓库的人
+- 需要“公开模板 + 私有配置”分层方式的团队
+- 想把模板和 secrets 彻底分开的构建者
+
+## 不适合谁
+- 想直接把生产中的 OpenClaw 工作目录原样公开的人
+- 想把 memory、日志、secrets 一起放进公开 Git 的人
 
 ## 快速开始
 
