@@ -89,8 +89,10 @@ openclaw-starter-public/
 - `docs/privacy-model.md`
 - `docs/release-checklist.md`
 - `docs/project-positioning.md`
+- `docs/customization.md`
 - `docs/faq.md`
 - `SECURITY.md`
+- `ROADMAP.md`
 
 ## Included Scripts
 - `bootstrap.sh` — initialize local starter files
@@ -133,6 +135,9 @@ See `docs/faq.md`.
 
 ## Security
 See `SECURITY.md`.
+
+## Roadmap
+See `ROADMAP.md`.
 
 ## License
 MIT
