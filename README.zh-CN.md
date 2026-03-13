@@ -83,6 +83,8 @@ openclaw-starter-public/
 - `docs/privacy-model.md`
 - `docs/release-checklist.md`
 - `docs/project-positioning.md`
+- `docs/faq.md`
+- `SECURITY.md`
 
 ## 内置脚本
 - `bootstrap.sh` —— 初始化本地模板文件
@@ -119,6 +121,12 @@ make doctor
 ```
 
 然后再看 `docs/release-checklist.md`。
+
+## FAQ
+见 `docs/faq.md`。
+
+## Security
+见 `SECURITY.md`。
 
 ## License
 MIT
