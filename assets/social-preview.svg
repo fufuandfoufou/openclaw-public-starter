@@ -1,0 +1,29 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="140" y1="120" x2="1140" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <rect x="70" y="70" width="1140" height="500" rx="32" fill="#0F172A" stroke="url(#accent)" stroke-width="3"/>
+  <text x="130" y="180" fill="#F8FAFC" font-size="58" font-family="Arial, Helvetica, sans-serif" font-weight="700">OpenClaw Public Starter</text>
+  <text x="130" y="240" fill="#CBD5E1" font-size="28" font-family="Arial, Helvetica, sans-serif">Open-source your OpenClaw architecture without leaking secrets.</text>
+  <text x="130" y="285" fill="#CBD5E1" font-size="28" font-family="Arial, Helvetica, sans-serif">Reusable templates • Privacy-first docs • Bootstrap scripts</text>
+
+  <rect x="130" y="355" width="280" height="92" rx="20" fill="#111827" stroke="#38BDF8"/>
+  <text x="165" y="410" fill="#E2E8F0" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Public-safe templates</text>
+
+  <rect x="445" y="355" width="260" height="92" rx="20" fill="#111827" stroke="#34D399"/>
+  <text x="490" y="410" fill="#E2E8F0" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Bilingual docs</text>
+
+  <rect x="740" y="355" width="310" height="92" rx="20" fill="#111827" stroke="#F59E0B"/>
+  <text x="775" y="410" fill="#E2E8F0" font-size="30" font-family="Arial, Helvetica, sans-serif" font-weight="700">Local secrets stay local</text>
+
+  <text x="130" y="525" fill="#94A3B8" font-size="24" font-family="Arial, Helvetica, sans-serif">github.com/fufuandfoufou/openclaw-public-starter</text>
+</svg>

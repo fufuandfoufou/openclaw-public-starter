@@ -1,6 +1,12 @@
 # OpenClaw Starter（公开版）
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Release](https://img.shields.io/github/v/release/fufuandfoufou/openclaw-public-starter)
+![Last Commit](https://img.shields.io/github/last-commit/fufuandfoufou/openclaw-public-starter)
+
 这是一个可复用的 OpenClaw 公共起步仓库。
+
+![Social Preview](assets/social-preview.svg)
 
 ![Architecture Overview](assets/architecture-overview.svg)
 

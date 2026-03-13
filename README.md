@@ -1,6 +1,12 @@
 # OpenClaw Starter (Public)
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Release](https://img.shields.io/github/v/release/fufuandfoufou/openclaw-public-starter)
+![Last Commit](https://img.shields.io/github/last-commit/fufuandfoufou/openclaw-public-starter)
+
 A reusable public starter for OpenClaw setups.
+
+![Social Preview](assets/social-preview.svg)
 
 ![Architecture Overview](assets/architecture-overview.svg)
 
