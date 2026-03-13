@@ -6,19 +6,21 @@ A reusable public starter for OpenClaw setups.
 
 A clean starter repo for people who want to open-source their OpenClaw structure without leaking personal context, secrets, or runtime state.
 
-This repository contains only the **public layer**:
+## What This Repo Gives You
 - reusable architecture
 - workspace templates
 - example config
 - bootstrap scripts
-- documentation for safe reuse
+- privacy-first documentation
+- a clean public foundation for your own OpenClaw setup
 
-It does **not** include:
+## What This Repo Deliberately Excludes
 - personal memory
 - private tokens / API keys
 - real chat bindings
 - personal device info
 - runtime state
+- live production deployment data
 
 ## Who This Is For
 - People who want a reusable OpenClaw architecture repo
@@ -33,7 +35,7 @@ It does **not** include:
 
 ```bash
 git clone https://github.com/fufuandfoufou/openclaw-public-starter.git
-cd openclaw-starter-public
+cd openclaw-public-starter
 ./bootstrap.sh
 ```
 
@@ -42,6 +44,13 @@ cd openclaw-starter-public
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fufuandfoufou/openclaw-public-starter/main/install.sh | bash
 ```
+
+## 30-Second Mental Model
+Public repo = templates, docs, scripts.
+
+Private local layer = `.env`, real `openclaw.json`, runtime memory, logs, real channel bindings.
+
+That split is the whole point of this project.
 
 ## What You Need To Fill In
 - `.env`
@@ -73,6 +82,7 @@ openclaw-starter-public/
 - `docs/architecture.md`
 - `docs/privacy-model.md`
 - `docs/release-checklist.md`
+- `docs/project-positioning.md`
 
 ## Included Scripts
 - `bootstrap.sh` — initialize local starter files

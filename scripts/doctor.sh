@@ -5,9 +5,11 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 echo "==> Checking for common secret patterns"
-if git grep -nE '(sk-|ghp_|xoxb-|Bearer |AIza|AKIA|ASIA)' -- . >/dev/null 2>&1; then
+PATTERN='(sk-|ghp_|xoxb-|Bearer |AIza|AKIA|ASIA)'
+MATCHES="$(git grep -nE "$PATTERN" -- . ':(exclude)scripts/doctor.sh' ':(exclude).git' || true)"
+if [ -n "$MATCHES" ]; then
   echo "Potential secret-like strings found. Review before publishing."
-  git grep -nE '(sk-|ghp_|xoxb-|Bearer |AIza|AKIA|ASIA)' -- . || true
+  printf '%s\n' "$MATCHES"
   exit 2
 fi
 

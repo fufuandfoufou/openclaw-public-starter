@@ -6,19 +6,21 @@
 
 它适合那些希望把 OpenClaw 的结构开源出来、方便别人复用，但又不想泄露个人上下文、密钥和运行态数据的人。
 
-这个仓库只包含**公开层**：
+## 这个仓库能给你什么
 - 可复用架构
 - workspace 模板
 - 示例配置
 - 初始化脚本
-- 面向安全复用的文档
+- 以隐私为优先的说明文档
+- 一个干净的 OpenClaw 公开起点
 
-**不包含**以下内容：
+## 这个仓库刻意不包含什么
 - 个人记忆
 - 私有 token / API key
 - 真实聊天绑定
 - 个人设备信息
 - 本地运行态数据
+- 线上生产环境数据
 
 ## 适合谁
 - 想把 OpenClaw 架构整理成可复用公开仓库的人
@@ -33,7 +35,7 @@
 
 ```bash
 git clone https://github.com/fufuandfoufou/openclaw-public-starter.git
-cd openclaw-starter-public
+cd openclaw-public-starter
 ./bootstrap.sh
 ```
 
@@ -42,6 +44,13 @@ cd openclaw-starter-public
 ```bash
 curl -fsSL https://raw.githubusercontent.com/fufuandfoufou/openclaw-public-starter/main/install.sh | bash
 ```
+
+## 30 秒理解这个项目
+公开仓库 = 模板、文档、脚本。
+
+本地私有层 = `.env`、真实 `openclaw.json`、运行 memory、日志、真实 channel bindings。
+
+这个分层本身就是这个项目最核心的价值。
 
 ## 你需要自己填写的内容
 - `.env`
@@ -73,6 +82,7 @@ openclaw-starter-public/
 - `docs/architecture.md`
 - `docs/privacy-model.md`
 - `docs/release-checklist.md`
+- `docs/project-positioning.md`
 
 ## 内置脚本
 - `bootstrap.sh` —— 初始化本地模板文件
